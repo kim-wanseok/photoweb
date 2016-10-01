@@ -21,11 +21,11 @@ div.album-detail-photo {
 }
 
 div.album-detail-photo > li {
-    font-size: 10px;
-    font-weight: bold;
+    fon
     font-style: italic;
 }
-
+t-size: 10px;
+    font-weight: bold;
 /* photo_detail.html */
 table.photo-detail {
     margin: 30px 50px 0 50px;
