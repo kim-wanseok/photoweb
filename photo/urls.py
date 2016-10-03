@@ -13,5 +13,5 @@ urlpatterns = [
 	url(r'^album/(?P<pk>\d+)/$', AlbumDV.as_view(), name='album_detail'),
 
 	# Example: /photo/99/
-	url(r'^photo/$', PhotoDV.as_view(), name='photo_detail'),
+	url(r'^photo/(?P<pk>\d+)/$', PhotoDV.as_view(), name='photo_detail'),
 ]
